@@ -1,0 +1,122 @@
+body {
+        font-family: 'Zalando Sans Expanded';
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color:white;
+}
+
+.header {
+        background-image: url("rockband.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.subtitle {
+        color: white;
+        font-size: 30px;
+        margin-left: 20px;
+}
+
+.headerlogo {
+        width: 200px;
+        height: 200px;
+}
+
+.subheader {
+        background-color: white;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.bannerlink {
+        font-weight: light;
+        color:black;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+
+.bannerlink:hover {
+        font-weight: bolder;
+}
+
+.body-wrapper-wrapper-wrapper-wrapper {
+        background-image: url(guitartile.png);
+        background-size: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+}
+
+.body-wrapper-wrapper-wrapper {
+        background-color: black;
+        width: 900px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+.body-wrapper-wrapper1 {
+        text-align: left;
+}
+.body-wrapper-wrapper2 {
+        text-align: right;
+}
+
+.body-wrapper {
+        margin: 20px;
+        margin-top: 0px;
+        border: 2px solid white;
+        width: auto;
+        max-width: 800px;
+        display: flex;
+        text-align: left;
+}
+
+.spacer {
+        height: 30px;
+}
+
+.member-desc {
+        display: flex;
+        flex-direction: column;
+        margin:10px
+}
+
+.contactform {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+}
+
+label {
+        margin-top: 10px;
+}
+
+.controls {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+button {
+        background-color: white;
+        border: none;
+        font-family: 'Zalando Sans Expanded';
+        width: 100px;
+        height: 30px;
+}
