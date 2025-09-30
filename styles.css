@@ -144,6 +144,10 @@ label {
                 width: 100px;
                 height: 100px;
         }
+
+         .body-wrapper {
+                max-width: 400px;
+        }
 }
 
 @media screen and (max-width: 480px) {
