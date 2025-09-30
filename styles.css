@@ -139,6 +139,11 @@ label {
         .body-wrapper-wrapper-wrapper {
                 padding: 0 10px;
         }
+
+        img {
+                width: 100px;
+                height: 100px;
+        }
 }
 
 @media screen and (max-width: 480px) {
