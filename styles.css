@@ -147,6 +147,7 @@ label {
 
          .body-wrapper {
                 max-width: 300px;
+                flex-direction: column;
         }
 }
 
