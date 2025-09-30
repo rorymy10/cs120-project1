@@ -62,7 +62,8 @@ body {
 
 .body-wrapper-wrapper-wrapper {
         background-color: black;
-        width: 900px;
+        width: 100%;
+        max-width: 900px;
         height: 100vh;
         display: flex;
         align-items: center;
